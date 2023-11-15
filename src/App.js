@@ -1,12 +1,13 @@
 import './App.css';
-import Appbar from './components/Appbar';
-import Student from './components/Student';
+import Navbar from './layout/Navbar';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Appbar />
-      <Student />
+    <div className="App" style={{ backgroundColor: '#EEEEEE', minHeight: '100vh' }}>
+      <Navbar />
+      <Home />
     </div>
   );
 }
