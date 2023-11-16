@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     return (
@@ -24,15 +25,17 @@ export default function Navbar() {
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                     Student Management System
                 </Typography>
-                <Button variant="outlined"
-                sx={{
-                    color: '#64CCC5',
-                    '&:hover': {
-                      backgroundColor: '#64CCC5',
-                      color: '#053B50',
-                    },
-                  }}
-                >Add User</Button>
+                <Link to="/adduser">
+                    <Button variant="outlined"
+                    sx={{
+                        color: '#64CCC5',
+                        '&:hover': {
+                        backgroundColor: '#64CCC5',
+                        color: '#053B50',
+                        },
+                    }}
+                    >Add User</Button>
+                </Link>  
                 </Toolbar>
             </AppBar>
         </Box>
