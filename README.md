@@ -28,8 +28,6 @@ This is a simple CRUD Application build using SpringBoot and Reactjs and MySQL
 
 3. **Frontend Setup**:
 
-   - Navigate to the React directory and follow the React setup instructions.
-
    - Install Node.js dependencies:
 
      ```shell
