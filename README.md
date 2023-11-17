@@ -1,6 +1,6 @@
 # Full Stack Project - Frontend
 
-This is a simple CRUD Application build using SpringBoot and Reactjs
+This is a simple CRUD Application build using SpringBoot and Reactjs and MySQL
 
 ## Getting Started
 1. **Clone the Repository**:
@@ -48,11 +48,5 @@ This is a simple CRUD Application build using SpringBoot and Reactjs
 
    - Open a web browser and go to `http://localhost:3000` to access the FullStack application.
 
-
-
-
-
-
-### Deployment
 
 
