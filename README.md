@@ -6,18 +6,17 @@ This is a simple CRUD Application build using SpringBoot and Reactjs
 1. **Clone the Repository**:
 
    ```shell
-   git clone https://github.com/LasalJayasinghe/SeatWise.git
-   cd seatwise
+   git clone https://github.com/Poori99/Full-Stack-Project---Frontend.git
    ```
 
 2. **Backend Setup**:
 
-   - You can find the Backend repository here (https://github.com/facebook/create-react-app).
+   - You can find the Backend repository here (https://github.com/Poori99/Full-Stack-Project---Backend).
      
    - Clone the backend repository and open in your preferred IDE:
 
      ```shell
-     git clone https://github.com/LasalJayasinghe/SeatWise.git
+     git clone https://github.com/Poori99/Full-Stack-Project---Backend.git
      cd fullstack-backend
      ``` 
 
